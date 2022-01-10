@@ -144,6 +144,7 @@ h1 {
     max-width: max-content;
     max-width: 275px;
     height:max-content;
+    max-height: 100vh;
     background-image: url(logo/logo-1.png);
     background-position: 30%;
     background-repeat: no-repeat;
