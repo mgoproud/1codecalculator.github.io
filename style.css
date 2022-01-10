@@ -21,9 +21,15 @@ body {
 }
 
 .theme-container {
+
     background-color: rgb(48, 48, 48);
     width: 100%;
-    height: 10%;
+    height: 11%;
+    /* padding: 0px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading-box {
@@ -34,11 +40,11 @@ body {
 
 .heading-box img {
     position: absolute;
-    top: 5em;
+    top: 4.8em;
     display: flex;
+    /* margin-top: 20px; */
 
-
-    width: 90px;
+    width: 100px;
     /* margin: 0 auto; */
     border-radius: 50%;
     /* border: 3px solid #131519; */
@@ -53,7 +59,7 @@ body {
     display: inline-flex;
     height: 36.2px;
     /* background-color: rgb(255, 254, 247); */
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-family: 'Ubuntu', sans-serif;
     color: rgb(255, 254, 247);
     /* border: 2px solid rgb(255, 254, 247); */
