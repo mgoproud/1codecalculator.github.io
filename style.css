@@ -1,0 +1,304 @@
+html, body {
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+
+body {
+    background-color: rgba(252, 251, 238, 0.7);
+    transition: all 0.2s ease-in-out;
+}
+
+.container {
+    /* background: rgb(255, 254, 247); */
+    text-align: center;
+    height: 100%;
+
+}
+
+.theme-container {
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    height: 10%;
+}
+
+.heading-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-box img {
+    position: absolute;
+    top: 5em;
+    display: flex;
+
+
+    width: 90px;
+    /* margin: 0 auto; */
+    border-radius: 50%;
+    /* border: 3px solid #131519; */
+    border: 3px solid rgb(255, 254, 247);
+    box-shadow: 0px 0px 8px 1px rgba(255, 254, 247, 0.6);
+    /* box-shadow: 0px 0px 5px 1px #13151980; */
+    /* margin-top: 18px; */
+}
+
+
+.theme {
+    display: inline-flex;
+    height: 36.2px;
+    /* background-color: rgb(255, 254, 247); */
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 254, 247);
+    /* border: 2px solid rgb(255, 254, 247); */
+    border-radius: 25px;
+    /* box-shadow: 0px 0px 5px 0px rgba(255, 254, 247, 0.735); */
+    /* opacity: 0.9; */
+}
+
+.theme span {
+    display: inline;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding: 5px 1em;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 1px rgba(255, 254, 247, 0.735);
+    transition: all 0.2s ease-in-out;
+}
+
+.light {
+    background-color: rgb(255, 254, 247);
+    color: #131519; 
+    border: 2px solid #131519;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    /* text-shadow: 0 1px 1px #131519;
+    font-weight: 600; */
+}
+
+.dark {
+    background-color: #131519;
+    border: 2px solid #131519;
+    /* border-left: 2px solid rgb(255, 254, 247); */
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* text-shadow: 0 1px 1px rgb(255, 254, 247);
+    font-weight: 600; */
+}
+
+.light:hover,
+.light:focus,
+.light:active {
+    box-shadow: inset 0 -3em 13em rgba(0,0,0,0.45);
+    color: rgb(255, 254, 247);
+}
+
+.dark:hover,
+.dark:focus,
+.dark:active {
+    box-shadow: inset 0 -3em 13em rgba(255, 254, 247, 0.45);
+    color: #131519;
+    /* border: 2px solid #1315195a; */
+}
+
+h1 {
+    display: flex;
+    /* color: #131519; */
+    color: rgb(48, 48, 48);
+    /* color: rgb(255, 254, 247); */
+    text-shadow: 1px 1px 1px #1315198f,
+                1px 1px 1px rgba(255, 254, 247, 0.55);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.15em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 0 40%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.logo-text {
+    margin-left: 0.25em;
+    font-size: 1.2em;
+}
+
+.red {
+    color: #d11919;
+    font-size: 1.15em;
+}
+
+.content-box {  
+    /* max-width: 286px; */
+    /* max-width: 274px; */
+    max-width: max-content;
+    max-width: 275px;
+    height:max-content;
+    background-image: url(logo/logo-1.png);
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: 14.5em;
+    /* background-color: #131519; */
+    background-color: rgb(48, 48, 48);
+
+    /* background-color: rgb(255, 254, 247); */
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    /* margin: 0.8em auto 0 auto; */
+    margin: 135px auto 0 auto;
+    /* border: 20px solid rgb(255, 254, 247);   */
+    /* border: 18px solid #131519; */
+    border: 18px solid rgb(48, 48, 48);
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(48, 48, 48);
+}
+
+.row-1 {
+    justify-content: space-evenly;
+}
+
+.row-full {
+    /* color: #131519; */
+    color: rgb(48, 48, 48);
+    max-width: 286px;
+    height: 64px;
+    line-height: 64px;
+    background-color: rgb(255, 254, 247);
+    font-family: 'cursed_timer_ulilregular';
+    font-size: 2.1em;
+    font-weight: 400;
+    padding: 0.28em 0.2em 0.1em 0.1em;
+    /* margin-bottom: 0.01em; */
+    letter-spacing: -0.05em;
+    /* border: 2px solid rgb(23, 44, 22); */
+    /* border: 2px solid #131519; */
+    border: 2px solid rgb(48, 48, 48);
+    
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    /* opacity: 0.9; */
+
+}
+
+.square {
+    
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    /* border: 2px solid rgb(23, 44, 22); */
+    /* border: 2px solid #131519; */
+    border: 2px solid rgb(48, 48, 48);
+    /* border: 2px solid rgb(255, 254, 247); */
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0.01em;
+    box-shadow: 5px 4px 20px 1px rgba(0, 0, 0, 0.22);
+    /* padding: 1em; */
+    transition: 0.1s all;
+    opacity: 0.92;
+}
+
+.row-6 .nums:nth-of-type(1) {
+    flex-grow: 2;
+}
+
+.square:focus,
+.square:active {
+    transform: scale(0.97);
+    box-shadow: 2px 1px 18px 1px rgba(0, 0, 0, 0.18);
+}
+
+.mains {
+    background-color: rgb(226, 255, 255);
+}
+
+.mains:hover {
+    background-color: rgba(23, 44, 22, 0.97);
+    color: rgb(226, 255, 255);
+    border-color: rgb(226, 255, 255);
+}
+
+
+
+.calcules {
+    background-color: rgb(255, 247, 227);
+}
+
+.calcules:hover {
+    background: rgba(23, 44, 22, 0.97);
+    color: rgb(255, 247, 227);
+    border-color: rgb(255, 247, 227);
+    font-weight: 800;
+}
+
+.nums {
+    background-color: rgb(244, 255, 231);
+}
+
+.nums:hover {
+    background-color: rgba(23, 44, 22, 0.97);
+    color: rgb(244, 255, 231);
+    border-color: rgb(244, 255, 231);
+}
+
+.left-arrow {
+    line-height: 40px;
+    font-weight: 800;
+}
+
+.b {
+
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 36px solid rgb(23, 44, 22);
+    /* padding: 5px 0; */
+    width: 22px;
+    height: 0;
+    margin: auto 13px;
+}
+
+
+/* DARK MODE STYLES */
+
+.body-dark {
+    background-color: #131519;
+}
+
+.img-dark {
+    box-shadow: 0px 5px 15px 3px rgba(255, 254, 247, 0.912);
+}
+
+.heading-dark {
+    color: rgb(255, 254, 247);
+}
+
+.content-dark {
+    border: 18px solid rgb(255, 254, 247);  
+}
